@@ -1,13 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Title = styled.h1`
   font-size: 12pt;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 300;
   text-align: center;
   color: ${({ theme }) => theme.colors.primary};
-`
-
+`;
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -18,12 +17,12 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  
+
   > svg {
     width: 250px;
     margin-top: 30px;
   }
-`
+`;
 
 export const Medias = styled.div`
   margin-bottom: 50px;
@@ -36,17 +35,15 @@ export const Medias = styled.div`
     transition: linear color 0.5s;
 
     &:hover {
-      color: #333
-      
+      color: #333;
     }
   }
 
-
-  >span {
+  > span {
     font-size: 9pt;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-weight: 200;
     color: ${({ theme }) => theme.colors.primary};
-    
   }
-  `;
+`;
+
