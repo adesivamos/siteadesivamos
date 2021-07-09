@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import { ThemeProvider } from "styled-components";
-import  {GlobalStyle, theme } from "./src/styles/global";
+import  {GlobalStyle, theme } from "../styles/global";
 import { Helmet } from "react-helmet";
 
 export default function App({ Component, pageProps }) {

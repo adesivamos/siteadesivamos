@@ -1,4 +1,4 @@
-import { Title, Wrapper, Medias } from "./src/styles/home";
+import { Title, Wrapper, Medias } from "../styles/home";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 
 import Logo from "./src/images/logo.svg";
